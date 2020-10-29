@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+
+.react-tabs__tab--selected{ 
+background:#020169;
+color:#fff;
+font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.react-tabs__tab{
+  font-weight: 600;
+  font-size:1rem
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ceo-head{
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.bg-ceocabs{
+  background-color: #020169;
+  color:#fff;
 }
 
-.App-link {
-  color: #61dafb;
+.mw-80{  
+  min-width: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn.bg-ceocabs:hover{
+  color:#fff;
+  background:#010049
+}
+
+.text-big-1{
+  font-size:1.3rem;
+  font-weight: 500;
+}
+
+.text-ceocabs{
+  color: #020169; 
 }
